@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import PlantPage from "./PlantPage";
+import "./Styles.css";
 
 function App() {
   return (

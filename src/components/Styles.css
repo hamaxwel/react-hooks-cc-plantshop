@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  .app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.5em;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Plant List styling */
+  .plant-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Plant Card styling */
+  .plant-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plant-card img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  .plant-card h4 {
+    margin: 10px 0 5px;
+    font-size: 1.1em;
+  }
+  
+  .plant-card p {
+    margin: 0;
+    color: #555;
+  }
+  
+  .sold-out {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Form styling */
+  .new-plant-form,
+  .searchbar {
+    margin: 20px 0;
+  }
+  
+  .new-plant-form input,
+  .searchbar input {
+    padding: 8px;
+    margin: 5px;
+    width: calc(100% - 22px);
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .new-plant-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .new-plant-form button:hover {
+    background-color: #45a049;
+  }
+  ul {
+    list-style-type: none;
+  }
+  
