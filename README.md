@@ -1,4 +1,4 @@
-#### Hog Wild Plant Catalog
+## Hog Wild Plant Catalog
 ## Description
 
 This application serves as a dynamic platform for managing a plant catalog, with a user-friendly landing page that displays a comprehensive list of plant records, each with detailed information such as name, price, and availability status (e.g., "Available" or "Sold Out"). Users can add new plants to the catalog by entering the plant name, image, and price, which immediately updates the catalog. A search feature enables users to locate specific records quickly, and users can also toggle the availability status of a plant between "Available" and "Sold Out."
