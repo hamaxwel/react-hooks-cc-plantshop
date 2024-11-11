@@ -1,150 +1,34 @@
-# Phase 2 Code Challenge: Plantsy
+#### Hog Wild Plant Catalog
+## Description
 
-## Demo
+This application serves as a dynamic platform for managing a plant catalog, with a user-friendly landing page that displays a comprehensive list of plant records, each with detailed information such as name, price, and availability status (e.g., "Available" or "Sold Out"). Users can add new plants to the catalog by entering the plant name, image, and price, which immediately updates the catalog. A search feature enables users to locate specific records quickly, and users can also toggle the availability status of a plant between "Available" and "Sold Out."
+## Setup and Installation
 
-Use this gif as an example of how the app should work.
+    Download the ZIP file by clicking the Code button and save it in your desired directory.
+    Extract the ZIP file.
+    Open the extracted folder in VSCode.
+    Run npm start to launch the app directly on the landing page.
+    The setup is complete—you’re ready to explore!
 
-![Demo GIF](https://curriculum-content.s3.amazonaws.com/phase-2/react-hooks-mock-code-challenge-plantshop/plantsy_demo.gif)
+## Live Demo
 
-## Instructions
+    Web Application: View the app live
+    Database API (JSON): Live Database
+    Complete Plant Records: Access the full plant records by adding /plants to the API URL: https://react-hooks-cc-plantshop-k7zu.onrender.com/plants
 
-Welcome to Plantsy! You've been tasked with building out some features for the
-admin side of a plant store. The designers have put together the components and
-CSS. Now it's up to you to bring the features to life by adding stateful logic
-as well as persisting data to the backend via our API.
+## Known Issues
 
-Your job will be to make our app work according to the user stories you will
-find the [Core Deliverables](#Core-Deliverables) section.
+The application is currently functioning smoothly with no known bugs.
+### Technologies Used
 
-## Setup
+    Frontend: HTML, CSS, JavaScript, React
+    Version Control: Git
 
-1. Run `npm install` in your terminal.
-2. Run `npm run server`. This will run your backend on port `6001`.
-3. In a new terminal, run `npm start`.
+## Contact and Support
 
-Make sure to open [http://localhost:6001/plants](http://localhost:6001/plants)
-in the browser to verify that your backend is working before you proceed!
+For support or inquiries, please reach out via email: maxwelkirimii@gmail.com
+## License
 
-## Endpoints
+This project is licensed under the MIT License.
 
-The base URL for your backend is: `http://localhost:6001`
-
-## Core Deliverables
-
-As a user:
-
-1. When the app starts, I can see all plants.
-2. I can add a new plant to the page by submitting the form.
-3. I can mark a plant as "sold out".
-4. I can search for plants by their name and see a filtered list of plants.
-
-### Endpoints for Core Deliverables
-
-#### GET /plants
-
-Example Response:
-
-```json
-[
-  {
-    "id": 1,
-    "name": "Aloe",
-    "image": "./images/aloe.jpg",
-    "price": 15.99
-  },
-  {
-    "id": 2,
-    "name": "ZZ Plant",
-    "image": "./images/zz-plant.jpg",
-    "price": 25.98
-  }
-]
-```
-
-#### POST `/plants`
-
-Required Headers:
-
-```js
-{
-  "Content-Type": "application/json"
-}
-```
-
-Request Object:
-
-```json
-{
-  "name": "string",
-  "image": "string",
-  "price": number
-}
-```
-
-Example Response:
-
-```json
-{
-  "id": 1,
-  "name": "Aloe",
-  "image": "./images/aloe.jpg",
-  "price": 15.99
-}
-```
-
-## Advanced Deliverables
-
-These deliverables are not required to pass the code challenge, but if you have
-the extra time, or even after the code challenge, they are a great way to
-stretch your skills.
-
-You'll have to add additional elements for these features. Feel free to style
-them however you see fit!
-
-> Note: If you are going to attempt these advanced deliverables, please be sure
-> to have a working commit with all the Core Deliverables first!
-
-As a user:
-
-1. I can update the price of a plant and still see the updated price after
-   refreshing the page.
-2. I can delete a plant and it is still gone when I refresh the page.
-
-### Endpoints for Advanced Deliverables
-
-#### PATCH /plants/:id
-
-Required Headers:
-
-```js
-{
-  "Content-Type": "application/json"
-}
-```
-
-Request Object:
-
-```json
-{
-  "price": number
-}
-```
-
-Example Response:
-
-```json
-{
-  "id": 1,
-  "name": "Aloe",
-  "image": "./images/aloe.jpg",
-  "price": 16.99
-}
-```
-
-#### DELETE /plants/:id
-
-Example Response:
-
-```json
-{}
-```
+© 2024 Maxwel Kirimi
