@@ -1,52 +1,52 @@
 {
-  "plants": [
-    {
-      "id": 1,
-      "name": "Aloe",
-      "image": "./images/aloe.jpg",
-      "price": 15.99
-    },
-    {
-      "id": 2,
-      "name": "ZZ Plant",
-      "image": "./images/zz-plant.jpg",
-      "price": 25.98
-    },
-    {
-      "id": 3,
-      "name": "Pilea peperomioides",
-      "image": "./images/pilea.jpg",
-      "price": 5.99
-    },
-    {
-      "id": 4,
-      "name": "Pothos",
-      "image": "./images/pothos.jpg",
-      "price": 12.11
-    },
-    {
-      "id": 5,
-      "name": "Jade",
-      "image": "./images/jade.jpg",
-      "price": 10.37
-    },
-    {
-      "id": 6,
-      "name": "Monstera Deliciosa",
-      "image": "./images/monstera.jpg",
-      "price": 25.99
-    },
-    {
-      "id": 7,
-      "name": "Fiddle Leaf Fig",
-      "image": "./images/fiddle-leaf-fig.jpg",
-      "price": 55
-    },
-    {
-      "name": "ygb",
-      "image": "./images/zz-plant.jpg",
-      "price": "777",
-      "id": 8
-    }
-  ]
-}
+    "plants": [
+      {
+        "id": 1,
+        "name": "Aloe",
+        "image": "./images/aloe.jpg",
+        "price": 15.99
+      },
+      {
+        "id": 2,
+        "name": "ZZ Plant",
+        "image": "./images/zz-plant.jpg",
+        "price": 25.98
+      },
+      {
+        "id": 3,
+        "name": "Pilea peperomioides",
+        "image": "./images/pilea.jpg",
+        "price": "5.97"
+      },
+      {
+        "id": 4,
+        "name": "Pothos",
+        "image": "./images/pothos.jpg",
+        "price": 12.11
+      },
+      {
+        "id": 5,
+        "name": "Jade",
+        "image": "./images/jade.jpg",
+        "price": 10.37
+      },
+      {
+        "id": 6,
+        "name": "Monstera Deliciosa",
+        "image": "./images/monstera.jpg",
+        "price": 25.99
+      },
+      {
+        "id": 7,
+        "name": "Fiddle Leaf Fig",
+        "image": "./images/fiddle-leaf-fig.jpg",
+        "price": 55
+      },
+      {
+        "name": "Moringa Plant",
+        "image": "https://aduna.com/cdn/shop/articles/Aduna_moringa-tree_4f5c1d0e-cc4b-42c6-9b4b-85d748ab7944.jpg?v=1721054358&width=1000",
+        "price": "11.11",
+        "id": 8
+      }
+    ]
+  }
